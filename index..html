@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menagourmet - Excelencia Culinaria</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fdfcf9;
+      color: #333;
+    }
+    header {
+      background-color: #6b7a40;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #6b7a40;
+      border-bottom: 2px solid #d1c8a8;
+      padding-bottom: .5rem;
+    }
+    .accordion {
+      background-color: #f6f4ed;
+      color: #333;
+      cursor: pointer;
+      padding: 1rem;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 1.1rem;
+      transition: 0.4s;
+      margin-top: .5rem;
+    }
+    .active, .accordion:hover {
+      background-color: #e8e4d8;
+    }
+    .panel {
+      padding: 0 1rem;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+      border-left: 3px solid #6b7a40;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #6b7a40;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Menagourmet</h1>
+    <p>Excelencia culinaria a tu servicio</p>
+  </header>
+
+  <section id="menu">
+    <h2>🍽️ Explora nuestro menú completo</h2>
+
+    <button class="accordion">🥗 Ensaladas</button>
+    <div class="panel">
+      <ul>
+        <li>Ensalada verde</li>
+        <li>Ensalada verde con frutas</li>
+        <li>Ensalada rusa</li>
+        <li>Ensalada de pasta (atún, jamón, al pesto)</li>
+        <li>Ensalada de legumbres</li>
+        <li>Ensalada César</li>
+        <li>Ensalada capresa</li>
+        <li>Ensalada nicoise</li>
+        <li>Ensalada coleslaw</li>
+        <li>Ensalada mawi</li>
+        <li>Langosta bella vista</li>
+        <li>Salpicón de mariscos</li>
+        <li>Lambi a la vinagreta</li>
+        <li>Ceviche de mero</li>
+      </ul>
+    </div>
+
+    <button class="accordion">🍚 Arroces</button>
+    <div class="panel">
+      <ul>
+        <li>Arroz con puerro</li>
+        <li>Arroz milanesa</li>
+        <li>Arroz primaveral</li>
+        <li>Arroz dulce primavera</li>
+        <li>Arroz tailandés</li>
+        <li>Arroz hortelana</li>
+        <li>Arroz con fideos</li>
+        <li>Arroz oriental</li>
+        <li>Arroz valenciana</li>
+        <li>Arroz marinera</li>
+        <li>Arroz pilaf</li>
+        <li>Arroz con maíz</li>
+        <li>Arroz con champiñones</li>
+        <li>Moro de hab negra</li>
+        <li>Moro de guandules</li>
+        <li>Arroz con tocineta y plátano</li>
+      </ul>
+    </div>
+
+    <button class="accordion">🍝 Pastas y Pastelones</button>
+    <div class="panel">
+      <ul>
+        <li>Pasta carbonara</li>
+        <li>Pasta 4 quesos</li>
+        <li>Pasta frutos del mar</li>
+        <li>Lasagna (napolitana, boloñesa, de vegetales, doble queso)</li>
+        <li>Canelones rellenos (res, pollo, ricota y espinacas)</li>
+        <li>Pastelones de plátano maduro, yuca, papa, rábano, berenjena</li>
+        <li>Quiche de maíz</li>
+        <li>Vegetales a la crema</li>
+        <li>Rolatina de berenjenas con mozzarella</li>
+        <li>Rolatina de berenjenas con plátano maduro</li>
+        <li>Rolatina de plátano maduro con mozzarella</li>
+        <li>Rolatina de berenjenas con ricota y espinacas</li>
+        <li>Soufflé de berenjena</li>
+        <li>Vegetales salteados con ajo y oliva</li>
+        <li>Papa la crema</li>
+        <li>Papa salteada con oliva y perejil</li>
+      </ul>
+    </div>
+
+    <button class="accordion">🍗 Aves y Carnes</button>
+    <div class="panel">
+      <ul>
+        <li>Pechugas florentina</li>
+        <li>Pechugas cordon blue</li>
+        <li>Pechugas rellenas de plátanos maduros</li>
+        <li>Pechugas milanesa</li>
+        <li>Mignon de pollo</li>
+        <li>Pollo s/h teriyaki</li>
+        <li>Pechugas a la crema con jengibre</li>
+        <li>Pechugas salsa de maní</li>
+        <li>Pollo s/h al ajillo</li>
+        <li>Pechugas en salsa de limón</li>
+        <li>Pechugas primaveral</li>
+        <li>Pechugas de pavo a la naranja</li>
+        <li>Pechugas de pavo s. Ciruela</li>
+        <li>Filete de cerdo s. Tamarindo</li>
+        <li>Filete de cerdo s. Chinola</li>
+        <li>Filete de cerdo s. Ciruela</li>
+        <li>Filete de cerdo s. Hongos</li>
+        <li>Filete de cerdo santin vodka</li>
+        <li>Filete de cerdo s. BBQ</li>
+        <li>Lomo de cerdo al vino</li>
+        <li>Lomo de cerdo s. Hongos</li>
+        <li>Filete de res mignon</li>
+        <li>Filete de res a la mostaza</li>
+        <li>Filete de res a la pimienta</li>
+        <li>Filete de res cordon blue</li>
+        <li>Pernil de cerdo en su jugo</li>
+        <li>Pernil de cerdo con champiñones</li>
+        <li>Pernil de cerdo al limón</li>
+        <li>Pernil de cerdo al romero</li>
+      </ul>
+    </div>
+
+    <button class="accordion">🍤 Pescados y Mariscos</button>
+    <div class="panel">
+      <ul>
+        <li>Camarones a la termidor</li>
+        <li>Camarones enchiladas</li>
+        <li>Langosta termidor</li>
+        <li>Salpicón de mariscos</li>
+        <li>Lambi a la criolla</li>
+        <li>Lambi al ajillo</li>
+        <li>Mero bretona</li>
+        <li>Mero meniere</li>
+        <li>Mero ajillo</li>
+        <li>Mero rebozado (s. tártara)</li>
+        <li>Mero al coco</li>
+        <li>Rolatinas de mero</li>
+      </ul>
+    </div>
+
+    <button class="accordion">🥟 Menú de Picadera</button>
+    <div class="panel">
+      <ul>
+        <li>Croquetas de pollo</li>
+        <li>Croquetas de jamón</li>
+        <li>Croquetas de pescado</li>
+        <li>Bolitas de queso</li>
+        <li>Bollitos de yuca</li>
+        <li>Quipes</li>
+        <li>Bastoncitos de mero</li>
+        <li>Bastoncitos de pollo</li>
+        <li>Chicharroncitos de pollo</li>
+        <li>Muslitos de pollo empanizado</li>
+        <li>Pinchitos de pollo</li>
+        <li>Pinchitos de filete de res</li>
+        <li>Pinchitos de filete de cerdo</li>
+        <li>Pinchitos de churrasco</li>
+        <li>Pinchitos de camarón</li>
+        <li>Camarón mariposa</li>
+        <li>Camarón rebozado</li>
+        <li>Camarón empanizado</li>
+        <li>Shock de camarón</li>
+        <li>Shock de ceviche de pollo</li>
+        <li>Shock de ceviche de mero</li>
+        <li>Shock de ceviche bacalao</li>
+        <li>Shock dips berenjena</li>
+        <li>Pinchitos de jamón pavo y queso gouda</li>
+        <li>Pinchitos de mozzarella y basil</li>
+        <li>Rolatina de jamón y queso</li>
+        <li>Rolatina de pastrami y crema de queso</li>
+        <li>Rolatina de prosciutto con melón</li>
+        <li>Wraps de pollo</li>
+        <li>Wraps de jamón y queso</li>
+        <li>Wraps de atún con maíz</li>
+        <li>Tarticos rellenos de maíz</li>
+        <li>Tarticos rellenos de pollo</li>
+        <li>Tarticos rellenos de atún</li>
+        <li>Tarticos rellenos de ensaladilla rusa</li>
+        <li>Pastelitos de pollo</li>
+        <li>Pastelitos de res molida</li>
+        <li>Pastelitos de queso</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 WhatsApp: 829-772-8513 | 📧 Email: fmena1230@hotmail.com</p>
+    <p>© 2025 Menagourmet - Excelencia Culinaria</p>
+  </footer>
+
+  <script>
+    const acc = document.getElementsByClassName('accordion');
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+        let panel = this.nextElementSibling;
+        if (panel.style.display === 'block') {
+          panel.style.display = 'none';
+        } else {
+          panel.style.display = 'block';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
